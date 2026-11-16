@@ -1,15 +1,12 @@
-<div align="center">
+# Lab 2: Python strings and lists
 
-# DevOps Labs
+This lab completes the string and list exercises from Google's Python Class. The original exercise tests are included in the two scripts.
 
-**Development and Operations coursework**
+Run the tests with Python 3:
 
-Coursework repository for Development and Operations.
+```sh
+python3 string1.py
+python3 list1.py
+```
 
-**English** · [简体中文](./README.zh-CN.md)
-
-</div>
-
-## Repository status
-
-This repository currently contains the course overview in English and Chinese. Lab scripts, assignment files, and deployment results have yet to be published here.
+The lab run passed all 16 string checks and 9 list checks. The exercise templates are from [Google's Python Class](https://developers.google.com/edu/python/exercises/basic). The original copyright notices and Apache 2.0 license are included.
