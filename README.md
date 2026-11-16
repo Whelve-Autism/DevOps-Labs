@@ -1,15 +1,5 @@
-<div align="center">
+# Lab 1: AWS setup and website hosting
 
-# DevOps Labs
+I configured an Amazon Linux EC2 instance, installed Apache, and replaced the default landing page with a custom one. I also used Python and Boto3 to list instance attributes and verified a copy of the page on an Amazon S3 static website.
 
-**Development and Operations coursework**
-
-Coursework repository for Development and Operations.
-
-**English** · [简体中文](./README.zh-CN.md)
-
-</div>
-
-## Repository status
-
-This repository currently contains the course overview in English and Chinese. Lab scripts, assignment files, and deployment results have yet to be published here.
+The included `index.html` is the page used in this lab. For EC2, it belongs in Apache's document root. For S3, upload it as the bucket's index document and open the static website endpoint.
